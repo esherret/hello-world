@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interval and Fibonacci Display</title>
+    <link rel="stylesheet" href="default.css" id="stylesheet">
+</head>
+<body>
+    <h1>Number Sequence Generator</h1>
+
+    <div>
+        <label for="length">Length:</label>
+        <input type="text" id="length" name="length">
+    </div>
+
+    <div>
+        <label for="interval">Interval:</label>
+        <input type="text" id="interval" name="interval">
+    </div>
+
+    <div>
+        <label for="word">Word:</label>
+        <input type="text" id="word" name="word">
+    </div>
+
+    <button id="submitBtn">Submit</button>
+    <button id="changeStyleBtn">Change Style</button>
+
+    <h2>Results:</h2>
+    <div id="resultArea">
+        <!-- Interval and Fibonacci numbers will be displayed here -->
+    </div>
+
+    <h2>Entered Word:</h2>
+    <div id="wordArea">
+        <!-- Entered word will be displayed here -->
+    </div>
+
+    <script src="interval.js"></script>
+    <script src="submit.js"></script>
+</body>
+</html>
